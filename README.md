@@ -1,16 +1,36 @@
-# Library Management API
+Library Management API
 
-This is a Library Management API built with Laravel, allowing you to manage books, authors, users, and borrowing records. The API supports user roles such as Admin, Librarian, and Member, with different permissions for each role.
+Library Management API adalah sistem Manajemen Perpustakaan Digital yang dibangun menggunakan Laravel dan menerapkan konsep Integrasi Aplikasi melalui REST API (dan opsional GraphQL).
+Aplikasi ini digunakan untuk mengelola buku, penulis, pengguna, serta transaksi peminjaman, dengan autentikasi berbasis token dan kontrol akses berbasis role.
+
+Proyek ini dikembangkan untuk memenuhi Tugas Besar Mata Kuliah Integrasi Aplikasi.
 
 ## Features
+Books
+- Create, update, delete, search books
+- Borrow and return books
 
-- **Books:** Create, update, delete, search, borrow, and return books.
-- **Authors:** Manage authors.
-- **Users:** Manage users, with authentication and role-based access control.
-- **Borrow Records:** Manage and track book borrowings.
-- **Authentication:** Token-based authentication using Laravel Sanctum.
-- **Rate Limiting:** Throttled routes to prevent abuse.
-- **Unit Tests:** Unit tests are implemented for each route
+Authors
+- Manage author data
+
+Users
+- User registration & login
+- Role-based access control (Admin, Librarian, Member)
+
+Borrow Records
+- Track borrowing and returning transactions
+
+Authentication
+- Token-based authentication using Laravel Sanctum
+
+Integration
+- REST API communication using JSON
+
+Rate Limiting
+- Throttled routes to prevent API abuse
+
+Testing
+- Feature and unit tests implemented for API endpoints
 
 ## Requirements
 
