@@ -150,6 +150,9 @@ Here is an overview of the available API endpoints.
 - **GET** `/borrow-records`: Retrieve all borrow records (Admin/Librarian only).
 - **GET** `/borrow-records/{id}`: Retrieve details of a specific borrow record (Admin/Librarian only).
 
+### Fine
+-  **POST** '/pay-fine/{fine}': Pay Fine.
+
 ### Roles and Permissions
 
 The application uses role-based access control with the following roles:
